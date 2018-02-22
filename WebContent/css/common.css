@@ -1,0 +1,129 @@
+@charset "UTF-8";
+::selection {
+    background: #000;
+    color: #fff;
+}
+A:link {
+	COLOR: #004779;
+	TEXT-DECORATION: none;
+}
+
+A:visited {
+	COLOR: #004779;
+	TEXT-DECORATION: none;
+}
+
+A:active {
+	COLOR: #004779;
+	TEXT-DECORATION: none;
+}
+
+A:hover {
+	COLOR: #0000ff;
+	TEXT-DECORATION: underLine;
+}
+
+A.OpenWinLink:hover {
+	COLOR: #004779;
+	TEXT-DECORATION: none;
+}
+body,form,img{font-size:12px;margin:0px;padding:0px;text-align:center;}
+.btn_modify{
+	background:url(../img/btn_modify.png);border:0px;width:25px;height:25px;cursor:pointer; margin-right: 5px;
+}
+.btn_del{
+	background:url(../img/btn_del.png);border:0px;width:25px;height:25px;cursor:pointer;margin-right: 5px;
+}
+.btn_download{
+	background:url(../img/btn_download.png);border:0px;cursor:pointer;margin-right: 5px;
+}
+/*组件样式*/
+table{
+    width: 100%;
+    border:1px solid #CAD3DA;
+    border-color:#000000;
+    margin-top:5px;font-size:14px;	
+    BORDER-COLLAPSE:collapse;
+    word-wrap:break-word;
+    word-break: break-all;
+}
+table td{
+	padding:5px;
+	border:1px #000000 solid;
+	border-left:none;
+	border-right:none;
+}
+table thead tr{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom:1px solid #CAD3DA;
+}
+table thead td{
+	padding:0;
+	border-left:1px solid #CAD3DA;
+	background:#DFEBFB;
+}
+table .explain{
+	width: 500px;
+}
+table tbody tr:nth-child(even){
+	background:#E7EFF9;
+}
+pre{
+    padding:10px;
+    font-family:Monaco, Consolas, "Courier New";
+}
+.method{
+    font-family:Monaco, Consolas, "Courier New";
+}
+.eg{
+    margin:20px 0;
+    padding:10px;
+    border:1px dashed #bdbdbd;
+    background:#f9f9f9;
+}
+.bad{
+    padding:0 0 0 10px;
+    border:1px dashed #bdbdbd;
+    color:#757575;
+    background:#f9f9f9;
+}
+/*侧栏导航*/
+.nav{
+	position: fixed;
+	left:0;
+	top:0;
+	width:300px;
+	height:100%;
+	background:#000;
+	color:#fff;
+}
+.nav .head{
+	padding:50px 0;
+}
+.nav .head a{
+	display: block;
+	margin:0 auto;
+	width: 170px;
+	height: 170px;
+	background:url('../../image/head.png') no-repeat;
+	text-indent: -999px;
+}
+.nav ul li{
+	width:300px;
+	text-align: center;
+}
+.nav ul li a{
+	display: block;
+	padding:20px 0;
+	color:#fff;
+}
+.nav ul li a:hover{
+	color:#000;
+	background:#fff;
+}
+.nav ul li .active{
+	color:#000;
+	background:#fff;
+}
