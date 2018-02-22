@@ -78,7 +78,7 @@
 
 		                <div class="form-group">
 		                    <div class="col-lg-9 col-lg-offset-3">
-		                       	<input type="button" class="btn btn-primary" value="点击返回" onclick="javascript:window.location.href='/Project/book/BookAction?action=searchUI'"/>
+		                       	<input type="button" class="btn btn-primary" value="点击返回" onclick="javascript:window.location.href='${pageContext.request.contextPath}/book/BookAction?action=searchUI'"/>
 		                        <button type="submit" class="btn btn-primary">确认</button>
 		                    </div>
 		                </div>
