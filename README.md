@@ -1,4 +1,11 @@
 # java web图书馆管理系统
+
+ ### 测试地址
+ [在线地址](http://ypjalt.cn:8080/Library/)
+ ### 测试账号
+ *管理员ID:12345678 密码:12345678*
+ *成   员ID:87654321 密码:12345678*
+
 ## 登陆界面
 ![image](https://github.com/ypjalt/Library/blob/master/ScreenShot/%E7%99%BB%E9%99%86%E7%95%8C%E9%9D%A2.png)
 ## 管理员首页
